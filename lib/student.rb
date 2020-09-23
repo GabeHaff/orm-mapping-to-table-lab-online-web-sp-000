@@ -17,7 +17,7 @@ def self.create_table
     grade INTEGER)"; 
     DB[:conn].execute(sql)
   end 
-
+end 
 
  
  
