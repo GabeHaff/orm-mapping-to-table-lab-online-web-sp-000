@@ -29,6 +29,10 @@ def save
 end 
 
 
+def self.create(name:, grade:)
+  
+end 
+
 def self.drop_table
   sql =<<-SQL
   DROP TABLE students 
